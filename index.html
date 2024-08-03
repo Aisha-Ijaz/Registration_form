@@ -1,0 +1,68 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+ </head>
+ <style>
+    body{
+        background: #f3f3f3;
+        font-size: 18px;
+    }
+    .form {
+        padding: 25px;
+        margin: auto;
+        width: 45%;
+        background: #fff;
+    }
+    .form h1 {
+        text-align: center;
+        font-size: 45px;
+    }
+    .submit {
+        text-align: center;
+        font-size: 20px;
+    }
+    
+ </style>
+ <body>
+    <div class="form">
+    <h1>Registration Form</h1>
+    <form action="">
+        Name: <input type="text" placeholder="Enter your name here..."/> <br/> <br/>
+        Father Name: <input type="text"/> <br/> <br/>
+        Date of Birth: <input type="date"/> <br/> <br/>
+        Address: <textarea name="" id=""></textarea> <br/><br/>
+        Gender: 
+        <input type="radio" value="m" name="gender"/>Male
+        <input type="radio" value="f" name="gender"/>Female
+        <br/>
+        <br/>
+        Qualification: 
+        <select name="" id="">
+            <option value="CIT">Please select your qualification</option>
+            <option value="CIT">Matric</option>
+            <option value="CIT">Intermediate</option>
+            <option value="CIT">Bachelor / Master</option>
+        </select>
+        <br/>
+        <br/>
+        Which Course do you want to Apply:
+        <br/> 
+        <input type="checkbox" name="Courses[]">CIT
+        <br/>
+        <input type="checkbox" name="Courses[]">Web Development
+        <br/>
+        <input type="checkbox" name="Courses[]">Graphic Design
+        <br/>
+        <input type="checkbox" name="Courses[]">Seo with AI
+        <br/>
+        <br/>
+        <div class="submit">
+        <input type="submit" value="Submit">
+    </div>
+    </form>
+</div>
+ </body>
+ </html>
